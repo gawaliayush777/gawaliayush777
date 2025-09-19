@@ -15,7 +15,9 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=gawali777&show_icons=true&locale=en&layout=compact" alt="gawali777" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=gawali777&show_icons=true&locale=en&layout=compact" alt="gawali777" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=gawali777&show_icons=true&locale=en" alt="gawali777" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=gawali777&" alt="gawali777" /></p>
 
