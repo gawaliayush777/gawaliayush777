@@ -1,589 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional GitHub Profile</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# Hi there, I'm [Your Name] 👋
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0d1117;
-            color: #e6edf3;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9745F5&background=0D111700&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Open+Source+Enthusiast;Problem+Solver;Always+Learning" alt="Typing SVG" />
+</div>
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+<div align="center">
+  
+  [![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Followers&style=social)](https://github.com/yourusername)
+  [![GitHub stars](https://img.shields.io/github/stars/yourusername?label=Stars&style=social)](https://github.com/yourusername)
+  [![Profile views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=flat)](https://github.com/yourusername)
+  
+</div>
 
-        .profile-header {
-            display: flex;
-            gap: 30px;
-            margin-bottom: 40px;
-            opacity: 0;
-            transform: translateY(30px);
-            animation: slideInUp 0.8s ease forwards;
-        }
+## 🚀 About Me
 
-        .profile-avatar {
-            position: relative;
-            flex-shrink: 0;
-        }
+```javascript
+const developer = {
+    name: "Your Name",
+    role: "Full-Stack Developer",
+    location: "Your Location",
+    languages: ["JavaScript", "Python", "TypeScript", "Java"],
+    frameworks: ["React", "Node.js", "Next.js", "Express"],
+    databases: ["MongoDB", "PostgreSQL", "MySQL"],
+    currentFocus: "Building scalable web applications",
+    funFact: "I debug with console.log and I'm not ashamed! 🐛"
+};
+```
 
-        .avatar {
-            width: 260px;
-            height: 260px;
-            border-radius: 50%;
-            border: 4px solid #30363d;
-            background: linear-gradient(135deg, #7c3aed, #3b82f6);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 80px;
-            font-weight: bold;
-            color: white;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            overflow: hidden;
-        }
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-        .avatar:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
-        }
+### 🔭 Current Projects
+- 🌟 **[Project Name]** - Brief description of your main project
+- 🚀 **[Another Project]** - Another project you're working on
+- 📚 Learning **[Technology/Framework]** to expand my skillset
 
-        .status-badge {
-            position: absolute;
-            bottom: 20px;
-            right: 20px;
-            background: #238636;
-            color: white;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 500;
-        }
+### 🌱 I'm currently learning
+- Advanced React patterns and performance optimization
+- Cloud architecture with AWS/Azure
+- Machine Learning with TensorFlow
+- DevOps practices and CI/CD pipelines
 
-        .profile-info {
-            flex: 1;
-        }
+### 👯 I'm looking to collaborate on
+- Open source projects
+- Innovative web applications
+- Developer tools and utilities
+- Tech communities and mentorship
 
-        .profile-name {
-            font-size: 2.5rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-            background: linear-gradient(135deg, #7c3aed, #3b82f6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+### 📫 How to reach me
+- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- 🐦 Twitter: [@yourusername](https://twitter.com/yourusername)
+- 📧 Email: your.email@example.com
+- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
 
-        .profile-username {
-            font-size: 1.25rem;
-            color: #8b949e;
-            margin-bottom: 20px;
-        }
+---
 
-        .profile-bio {
-            font-size: 1.1rem;
-            margin-bottom: 20px;
-            color: #e6edf3;
-        }
+## 🛠️ Tech Stack
 
-        .profile-stats {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
+<div align="center">
 
-        .stat {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 12px;
-            background: rgba(240, 246, 252, 0.05);
-            border: 1px solid #30363d;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
+### Languages
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-        .stat:hover {
-            background: rgba(240, 246, 252, 0.1);
-            transform: translateY(-2px);
-        }
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-        .stat-icon {
-            width: 16px;
-            height: 16px;
-            fill: #7c3aed;
-        }
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 
-        .follow-btn {
-            background: linear-gradient(135deg, #7c3aed, #3b82f6);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            margin-right: 10px;
-        }
+### Database
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-        .follow-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(124, 58, 237, 0.3);
-        }
+### Cloud & Tools
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-        .content-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 30px;
-            opacity: 0;
-            transform: translateY(30px);
-            animation: slideInUp 0.8s ease 0.3s forwards;
-        }
+</div>
 
-        .repos-section {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            padding: 20px;
-            transition: all 0.3s ease;
-        }
+---
 
-        .repos-section:hover {
-            border-color: #7c3aed;
-            box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
-        }
+## 📊 GitHub Stats
 
-        .section-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+<div align="center">
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&langs_count=8&theme=tokyonight"/>
+  
+</div>
 
-        .repo-card {
-            background: rgba(240, 246, 252, 0.03);
-            border: 1px solid #30363d;
-            border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 12px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
+<div align="center">
+  
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=yourusername&theme=tokyonight)](https://git.io/streak-stats)
+  
+</div>
 
-        .repo-card:hover {
-            border-color: #7c3aed;
-            transform: translateX(5px);
-            background: rgba(124, 58, 237, 0.05);
-        }
+<div align="center">
+  
+  ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyo-night)
+  
+</div>
 
-        .repo-name {
-            font-weight: 600;
-            color: #58a6ff;
-            margin-bottom: 8px;
-        }
+---
 
-        .repo-description {
-            color: #8b949e;
-            margin-bottom: 12px;
-            font-size: 0.9rem;
-        }
+## 🏆 GitHub Achievements
 
-        .repo-meta {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            font-size: 0.8rem;
-            color: #8b949e;
-        }
+<div align="center">
+  
+  [![trophy](https://github-profile-trophy.vercel.app/?username=yourusername&theme=tokyonight&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+  
+</div>
 
-        .language-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 4px;
-        }
+---
 
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+## 📈 Contribution Graph
 
-        .contribution-graph {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            padding: 20px;
-            transition: all 0.3s ease;
-        }
+<div align="center">
+  
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=yourusername&theme=tokyonight" alt="WakaTime Stats" />
+  
+</div>
 
-        .contribution-graph:hover {
-            border-color: #7c3aed;
-        }
+---
 
-        .graph-grid {
-            display: grid;
-            grid-template-columns: repeat(53, 1fr);
-            gap: 3px;
-            margin-top: 16px;
-        }
+## 🎯 Featured Projects
 
-        .graph-day {
-            width: 10px;
-            height: 10px;
-            border-radius: 2px;
-            background: #161b22;
-            border: 1px solid #30363d;
-            transition: all 0.2s ease;
-        }
+<div align="center">
 
-        .graph-day.level-1 { background: #0e4429; }
-        .graph-day.level-2 { background: #006d32; }
-        .graph-day.level-3 { background: #26a641; }
-        .graph-day.level-4 { background: #39d353; }
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=your-repo-name&theme=tokyonight)](https://github.com/yourusername/your-repo-name)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=another-repo&theme=tokyonight)](https://github.com/yourusername/another-repo)
 
-        .graph-day:hover {
-            transform: scale(1.2);
-            box-shadow: 0 0 10px rgba(124, 58, 237, 0.5);
-        }
+</div>
 
-        .achievements {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            padding: 20px;
-        }
+---
 
-        .achievement-badge {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 12px;
-            background: rgba(240, 246, 252, 0.03);
-            border: 1px solid #30363d;
-            border-radius: 8px;
-            margin-bottom: 12px;
-            transition: all 0.3s ease;
-        }
+## 💡 Quote of the Day
 
-        .achievement-badge:hover {
-            transform: translateX(5px);
-            border-color: #7c3aed;
-        }
+<div align="center">
+  
+  ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+  
+</div>
 
-        .achievement-icon {
-            width: 32px;
-            height: 32px;
-            background: linear-gradient(135deg, #7c3aed, #3b82f6);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px;
-        }
+---
 
-        @keyframes slideInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+## 🎵 Currently Listening To
 
-        @keyframes pulse {
-            0%, 100% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0.5;
-            }
-        }
+<div align="center">
+  
+  [![Spotify](https://spotify-github-profile.vercel.app/api/spotify-playing)](https://spotify-github-profile.vercel.app/api/spotify-playing)
+  
+</div>
 
-        .typing-animation {
-            border-right: 2px solid #7c3aed;
-            animation: pulse 1s infinite;
-        }
+---
 
-        @media (max-width: 768px) {
-            .profile-header {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            .content-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .avatar {
-                width: 200px;
-                height: 200px;
-                font-size: 60px;
-                align-self: center;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="profile-header">
-            <div class="profile-avatar">
-                <div class="avatar" id="avatar">
-                    <span>JD</span>
-                </div>
-                <div class="status-badge">Available for work</div>
-            </div>
-            <div class="profile-info">
-                <h1 class="profile-name">John Developer</h1>
-                <p class="profile-username">@john-developer</p>
-                <p class="profile-bio">Full-stack developer passionate about creating amazing web experiences. <span class="typing-animation">Building the future, one line of code at a time</span> 🚀</p>
-                
-                <div class="profile-stats">
-                    <div class="stat">
-                        <svg class="stat-icon" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>
-                        <span>127 repositories</span>
-                    </div>
-                    <div class="stat">
-                        <svg class="stat-icon" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>
-                        <span>2.3k followers</span>
-                    </div>
-                    <div class="stat">
-                        <svg class="stat-icon" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>
-                        <span>892 following</span>
-                    </div>
-                </div>
-                
-                <button class="follow-btn">Follow</button>
-                <button class="follow-btn" style="background: transparent; border: 1px solid #30363d;">Message</button>
-            </div>
-        </div>
+## 📊 Weekly Development Breakdown
 
-        <div class="content-grid">
-            <div class="repos-section">
-                <h2 class="section-title">
-                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU 00.4.2l1.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU25.25z"/>
-                    </svg>
-                    Popular repositories
-                </h2>
-                
-                <div class="repo-card">
-                    <h3 class="repo-name">awesome-web-components</h3>
-                    <p class="repo-description">A collection of reusable web components built with modern JavaScript frameworks. Perfect for rapid prototyping and production apps.</p>
-                    <div class="repo-meta">
-                        <span><span class="language-dot" style="background: #f1e05a;"></span>JavaScript</span>
-                        <span>⭐ 1.2k</span>
-                        <span>🍴 234</span>
-                        <span>Updated 2 days ago</span>
-                    </div>
-                </div>
+```text
+JavaScript   ████████████████████░░░░░   78.2%
+TypeScript   ████████░░░░░░░░░░░░░░░░░   31.5%
+React        ██████░░░░░░░░░░░░░░░░░░░   24.8%
+CSS          ████░░░░░░░░░░░░░░░░░░░░░   16.3%
+Python       ███░░░░░░░░░░░░░░░░░░░░░░   12.4%
+HTML         ██░░░░░░░░░░░░░░░░░░░░░░░    8.7%
+Other        █░░░░░░░░░░░░░░░░░░░░░░░░    4.1%
+```
 
-                <div class="repo-card">
-                    <h3 class="repo-name">react-dashboard-pro</h3>
-                    <p class="repo-description">Professional React dashboard template with TypeScript, charts, and responsive design. Used by 500+ developers worldwide.</p>
-                    <div class="repo-meta">
-                        <span><span class="language-dot" style="background: #61dafb;"></span>TypeScript</span>
-                        <span>⭐ 2.8k</span>
-                        <span>🍴 456</span>
-                        <span>Updated 1 week ago</span>
-                    </div>
-                </div>
+---
 
-                <div class="repo-card">
-                    <h3 class="repo-name">api-gateway-nodejs</h3>
-                    <p class="repo-description">Scalable API gateway built with Node.js and Express. Features rate limiting, authentication, and microservice routing.</p>
-                    <div class="repo-meta">
-                        <span><span class="language-dot" style="background: #8cc84b;"></span>Node.js</span>
-                        <span>⭐ 890</span>
-                        <span>🍴 167</span>
-                        <span>Updated 3 days ago</span>
-                    </div>
-                </div>
+## 🤝 Connect with Me
 
-                <div class="repo-card">
-                    <h3 class="repo-name">ml-prediction-engine</h3>
-                    <p class="repo-description">Machine learning prediction engine using Python and TensorFlow. Deployed on AWS with Docker containerization.</p>
-                    <div class="repo-meta">
-                        <span><span class="language-dot" style="background: #3572a5;"></span>Python</span>
-                        <span>⭐ 756</span>
-                        <span>🍴 123</span>
-                        <span>Updated 5 days ago</span>
-                    </div>
-                </div>
-            </div>
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://yourportfolio.com)
+  [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+  
+</div>
 
-            <div class="sidebar">
-                <div class="contribution-graph">
-                    <h3 class="section-title">Contribution Activity</h3>
-                    <p style="color: #8b949e; font-size: 0.9rem; margin-bottom: 16px;">1,247 contributions in the last year</p>
-                    <div class="graph-grid" id="contributionGraph"></div>
-                </div>
+---
 
-                <div class="achievements">
-                    <h3 class="section-title">Achievements</h3>
-                    
-                    <div class="achievement-badge">
-                        <div class="achievement-icon">🏆</div>
-                        <div>
-                            <h4 style="color: #e6edf3; margin-bottom: 4px;">Arctic Code Vault Contributor</h4>
-                            <p style="color: #8b949e; font-size: 0.8rem;">Contributed code in 2020 GitHub Archive Program</p>
-                        </div>
-                    </div>
+<div align="center">
+  
+  ### 🌟 Show some ❤️ by starring some of my repositories!
+  
+  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+  
+</div>
 
-                    <div class="achievement-badge">
-                        <div class="achievement-icon">🔥</div>
-                        <div>
-                            <h4 style="color: #e6edf3; margin-bottom: 4px;">Quickdraw</h4>
-                            <p style="color: #8b949e; font-size: 0.8rem;">Merged a pull request within 1 hour of opening</p>
-                        </div>
-                    </div>
+---
 
-                    <div class="achievement-badge">
-                        <div class="achievement-icon">⭐</div>
-                        <div>
-                            <h4 style="color: #e6edf3; margin-bottom: 4px;">Starstruck</h4>
-                            <p style="color: #8b949e; font-size: 0.8rem;">Created a repository with 16+ stars</p>
-                        </div>
-                    </div>
-
-                    <div class="achievement-badge">
-                        <div class="achievement-icon">💻</div>
-                        <div>
-                            <h4 style="color: #e6edf3; margin-bottom: 4px;">Pull Shark</h4>
-                            <p style="color: #8b949e; font-size: 0.8rem;">Opened a pull request that was merged</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Generate contribution graph
-        function generateContributionGraph() {
-            const graph = document.getElementById('contributionGraph');
-            const days = 365;
-            
-            for (let i = 0; i < days; i++) {
-                const day = document.createElement('div');
-                day.className = 'graph-day';
-                
-                // Random contribution levels
-                const random = Math.random();
-                if (random > 0.9) day.classList.add('level-4');
-                else if (random > 0.7) day.classList.add('level-3');
-                else if (random > 0.5) day.classList.add('level-2');
-                else if (random > 0.3) day.classList.add('level-1');
-                
-                // Add hover effect with delay
-                day.addEventListener('mouseenter', function() {
-                    this.style.transform = 'scale(1.2)';
-                    this.style.zIndex = '10';
-                });
-                
-                day.addEventListener('mouseleave', function() {
-                    this.style.transform = 'scale(1)';
-                    this.style.zIndex = '1';
-                });
-                
-                graph.appendChild(day);
-            }
-        }
-
-        // Avatar interaction
-        const avatar = document.getElementById('avatar');
-        avatar.addEventListener('click', function() {
-            this.style.transform = 'rotate(360deg) scale(1.1)';
-            setTimeout(() => {
-                this.style.transform = 'rotate(0deg) scale(1)';
-            }, 600);
-        });
-
-        // Typing animation
-        function startTypingAnimation() {
-            const typingElement = document.querySelector('.typing-animation');
-            const text = 'Building the future, one line of code at a time';
-            let index = 0;
-            
-            function type() {
-                if (index < text.length) {
-                    typingElement.textContent = text.slice(0, index + 1);
-                    index++;
-                    setTimeout(type, 100);
-                } else {
-                    setTimeout(() => {
-                        index = 0;
-                        typingElement.textContent = '';
-                        type();
-                    }, 3000);
-                }
-            }
-            
-            type();
-        }
-
-        // Add floating animation to repo cards
-        function addFloatingAnimation() {
-            const repoCards = document.querySelectorAll('.repo-card');
-            repoCards.forEach((card, index) => {
-                card.style.animationDelay = `${index * 0.1}s`;
-                card.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-5px) translateX(5px)';
-                    this.style.boxShadow = '0 10px 20px rgba(124, 58, 237, 0.2)';
-                });
-                
-                card.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0) translateX(0)';
-                    this.style.boxShadow = 'none';
-                });
-            });
-        }
-
-        // Initialize all animations
-        document.addEventListener('DOMContentLoaded', function() {
-            generateContributionGraph();
-            startTypingAnimation();
-            addFloatingAnimation();
-            
-            // Add stagger animation to stats
-            const stats = document.querySelectorAll('.stat');
-            stats.forEach((stat, index) => {
-                stat.style.opacity = '0';
-                stat.style.transform = 'translateY(20px)';
-                setTimeout(() => {
-                    stat.style.transition = 'all 0.6s ease';
-                    stat.style.opacity = '1';
-                    stat.style.transform = 'translateY(0)';
-                }, 800 + (index * 200));
-            });
-        });
-
-        // Add parallax effect on scroll
-        window.addEventListener('scroll', function() {
-            const scrolled = window.pageYOffset;
-            const avatar = document.getElementById('avatar');
-            avatar.style.transform = `translateY(${scrolled * 0.5}px) scale(${1 + scrolled * 0.0002})`;
-        });
-    </script>
-</body>
-</html>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile Views" />
+</div>
